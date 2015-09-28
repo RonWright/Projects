@@ -1,0 +1,105 @@
+<base:PageBase
+    x:Class="MySelfies.MainPage"
+    DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:was_commands="using:AppStudio.Common.Commands"
+    xmlns:was_actions="using:AppStudio.Common.Actions"
+    xmlns:base="using:MySelfies"
+    xmlns:controls="using:MySelfies.Controls"
+    xmlns:vm="using:MySelfies.ViewModels"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource AppBackground}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <controls:PageHeaderControl x:Name="Header" LastUpdateDateTime="{Binding LastUpdated}" ShowBackButton="False" PageHeaderType="LogoText" HeaderText="{StaticResource AppTitle}" ShowSnappedMode="False"/>
+        <Hub x:Name="Container" Grid.Row="1" Padding="0,0,0,0" Margin="0,-18,0,0" DataContext="{Binding}" was_commands:SectionHeaderClickCommand.Command="{Binding SectionHeaderClickCommand}">
+            <HubSection x:Name="BigTilesSection" Header="{Binding Title}" HeaderTemplate="{StaticResource HubSectionHeaderTemplate}" Style="{StaticResource HubSectionStyle}"
+                        ContentTemplate="{StaticResource Panel_List_BigPictures}" IsHeaderInteractive="{Binding HasMoreItems}" Padding="120,12,0,30"
+                        DataContext="{Binding BigTiles}"
+                        d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}"/>
+            <HubSection x:Name="SmallTilesSection" Header="{Binding Title}" HeaderTemplate="{StaticResource HubSectionHeaderTemplate}" Style="{StaticResource HubSectionStyle}"
+                        ContentTemplate="{StaticResource Panel_List_HorizontalCards}" IsHeaderInteractive="{Binding HasMoreItems}" Padding="80,12,0,30"
+                        DataContext="{Binding SmallTiles}"
+                        d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}"/>
+            <HubSection x:Name="SmallTiles1Section" Header="{Binding Title}" HeaderTemplate="{StaticResource HubSectionHeaderTemplate}" Style="{StaticResource HubSectionStyle}"
+                        ContentTemplate="{StaticResource Panel_List_VerticalCards}" IsHeaderInteractive="{Binding HasMoreItems}" Padding="80,12,0,30"
+                        DataContext="{Binding SmallTiles1}"
+                        d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}"/>
+            <HubSection x:Name="BigTiles1Section" Header="{Binding Title}" HeaderTemplate="{StaticResource HubSectionHeaderTemplate}" Style="{StaticResource HubSectionStyle}"
+                        ContentTemplate="{StaticResource Panel_List_BigVerticalCards}" IsHeaderInteractive="{Binding HasMoreItems}" Padding="80,12,0,30"
+                        DataContext="{Binding BigTiles1}"
+                        d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}"/>
+            <HubSection x:Name="SmallTileGridSection" Header="{Binding Title}" HeaderTemplate="{StaticResource HubSectionHeaderTemplate}" Style="{StaticResource HubSectionStyle}"
+                        ContentTemplate="{StaticResource Panel_List_Photo}" IsHeaderInteractive="{Binding HasMoreItems}" Padding="80,12,120,30"
+                        DataContext="{Binding SmallTileGrid}"
+                        d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}"/>
+        </Hub>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="SnappedView">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Container" Storyboard.TargetProperty="Orientation">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Orientation>Vertical</Orientation>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Header" Storyboard.TargetProperty="ShowSnappedMode">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="True"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BigTilesSection" Storyboard.TargetProperty="ContentTemplate">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Panel_List_BigPictures_Snapped}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BigTilesSection" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="24,10,24,10"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTilesSection" Storyboard.TargetProperty="ContentTemplate">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Panel_List_HorizontalCards_Snapped}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTilesSection" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="24,10,24,10"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTiles1Section" Storyboard.TargetProperty="ContentTemplate">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Panel_List_VerticalCards_Snapped}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTiles1Section" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="24,10,24,10"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BigTiles1Section" Storyboard.TargetProperty="ContentTemplate">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Panel_List_BigVerticalCards_Snapped}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BigTiles1Section" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="24,10,24,10"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTileGridSection" Storyboard.TargetProperty="ContentTemplate">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Panel_List_Photo_Snapped}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SmallTileGridSection" Storyboard.TargetProperty="Padding">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="24,10,24,10"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="FullscreenView">
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <was_actions:ActionsCommandBar ActionsSource="{Binding Actions}" Visibility="{Binding HasActions, Converter={StaticResource BoolToVisibilityConverter}}"
+                                       Background="{StaticResource AppBarBackground}" BorderBrush="{StaticResource AppBarBackground}" Foreground="{StaticResource AppBarForeground}"/>
+    </Page.BottomAppBar>
+</base:PageBase>

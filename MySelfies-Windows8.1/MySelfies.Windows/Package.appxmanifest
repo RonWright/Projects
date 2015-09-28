@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" IgnorableNamespaces="appstudio">
+  <Identity Name="54870WrightSoftwareResour.MySelfies" Publisher="CN=A374BD13-577C-44EA-8B7C-9C92983DAA32" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>My Selfies</DisplayName>
+    <PublisherDisplayName>Wright Software Resources</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MySelfies.App">
+      <m2:VisualElements DisplayName="MySelfies" Description="Display your Instagram photos tagged with #selfie" ForegroundText="dark" BackgroundColor="#1ba1e2" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+        <m2:DefaultTile ShortName="MySelfies" Wide310x150Logo="Assets\Wide310x150Logo.png" Square70x70Logo="Assets\Square70x70Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1ba1e2" />
+        <m2:ApplicationView MinWidth="width320" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="9259782c-dcd0-44e9-95ca-143011c76945" />
+    <appstudio:Item Name="model" Version="1.11" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.11.0915.1" />
+    <appstudio:Item DataSource="Instagram" Version="0.1.4" />
+  </appstudio:Metadata>
+</Package>
