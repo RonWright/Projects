@@ -1,1 +1,1 @@
-C:\Projects\MySelfies-Windows8.1\MySelfies.Windows\MySelfies.Windows.csproj;arm
+C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Windows\MySelfies.Windows.csproj;arm

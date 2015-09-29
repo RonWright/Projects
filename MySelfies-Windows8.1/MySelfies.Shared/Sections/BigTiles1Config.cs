@@ -32,7 +32,7 @@ namespace MySelfies.Sections
                 return new InstagramDataConfig
                 {
                     QueryType = InstagramQueryType.Tag,
-                    Query = @"selfie"
+                    Query = @"myselfie"
                 };
             }
         }
