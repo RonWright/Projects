@@ -7,16 +7,16 @@
     <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>9259782c-dcd0-44e9-95ca-143011c76945</PackageIdentityName>
-    <IntermediateOutputPath>C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\AppxManifest.xml">
+    <AppXManifest Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MySelfies.WindowsPhone.exe">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MySelfies.WindowsPhone.exe">
       <PackagePath>MySelfies.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
@@ -25,162 +25,162 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\packages\WindowsAppStudio.Common.0.1.4\lib\portable-win81+wpa81\AppStudio.Common.dll">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\packages\WindowsAppStudio.Common.0.1.4\lib\portable-win81+wpa81\AppStudio.Common.dll">
       <PackagePath>AppStudio.Common.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\packages\WindowsAppStudio.DataProviders.0.1.4\lib\portable-win81+wpa81\AppStudio.DataProviders.dll">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\packages\WindowsAppStudio.DataProviders.0.1.4\lib\portable-win81+wpa81\AppStudio.DataProviders.dll">
       <PackagePath>AppStudio.DataProviders.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
       <PackagePath>HtmlAgilityPack.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-140.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-140.png">
       <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
       <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\WideLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\WideLogo.scale-100.png">
       <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DarkGray.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DarkGray.png">
       <PackagePath>Assets\Design\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\LightGray.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\LightGray.png">
       <PackagePath>Assets\Design\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\MediumGray.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\MediumGray.png">
       <PackagePath>Assets\Design\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\DataImages\FlipSquareTile.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\DataImages\FlipSquareTile.png">
       <PackagePath>Assets\DataImages\FlipSquareTile.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\DataImages\FlipWideTile.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\DataImages\FlipWideTile.png">
       <PackagePath>Assets\DataImages\FlipWideTile.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\ApplicationLogo.png">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\ApplicationLogo.png">
       <PackagePath>Assets\ApplicationLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignData.json">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignData.json">
       <PackagePath>Assets\Design\DesignData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataHtml.json">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataHtml.json">
       <PackagePath>Assets\Design\DesignDataHtml.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataMenu.json">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataMenu.json">
       <PackagePath>Assets\Design\DesignDataMenu.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataTD.json">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.Shared\Assets\Design\DesignDataTD.json">
       <PackagePath>Assets\Design\DesignDataTD.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\App.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ErrorNotificationControl.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ErrorNotificationControl.xbf">
       <PackagePath>Controls\ErrorNotificationControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\AppBarButtons.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\AppBarButtons.xbf">
       <PackagePath>Styles\AppBarButtons.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\AppTheme.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\AppTheme.xbf">
       <PackagePath>Styles\AppTheme.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\DefaultTheme.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\DefaultTheme.xbf">
       <PackagePath>Styles\DefaultTheme.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ConnectionNotificationControl.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ConnectionNotificationControl.xbf">
       <PackagePath>Controls\ConnectionNotificationControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ImageViewer.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\ImageViewer.xbf">
       <PackagePath>Controls\ImageViewer.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\YouTubeViewer.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Controls\YouTubeViewer.xbf">
       <PackagePath>Controls\YouTubeViewer.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\AboutThisAppPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\AboutThisAppPage.xbf">
       <PackagePath>AboutThisAppPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MainPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTilesListPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTilesListPage.xbf">
       <PackagePath>Views\BigTilesListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTilesDetailPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTilesDetailPage.xbf">
       <PackagePath>Views\BigTilesDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTilesListPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTilesListPage.xbf">
       <PackagePath>Views\SmallTilesListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTilesDetailPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTilesDetailPage.xbf">
       <PackagePath>Views\SmallTilesDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTiles1ListPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTiles1ListPage.xbf">
       <PackagePath>Views\SmallTiles1ListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTiles1DetailPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTiles1DetailPage.xbf">
       <PackagePath>Views\SmallTiles1DetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTiles1ListPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTiles1ListPage.xbf">
       <PackagePath>Views\BigTiles1ListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTiles1DetailPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\BigTiles1DetailPage.xbf">
       <PackagePath>Views\BigTiles1DetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTileGridListPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTileGridListPage.xbf">
       <PackagePath>Views\SmallTileGridListPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTileGridDetailPage.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Views\SmallTileGridDetailPage.xbf">
       <PackagePath>Views\SmallTileGridDetailPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\FontSizes.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\FontSizes.xbf">
       <PackagePath>Styles\FontSizes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\ButtonStyles.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\ButtonStyles.xbf">
       <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\GridView.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\GridView.xbf">
       <PackagePath>Styles\GridView.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\Layouts\DetailLayouts.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\Layouts\DetailLayouts.xbf">
       <PackagePath>Styles\Layouts\DetailLayouts.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\Layouts\ListLayouts.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\Layouts\ListLayouts.xbf">
       <PackagePath>Styles\Layouts\ListLayouts.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\PlatformStyles.xbf">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\Styles\PlatformStyles.xbf">
       <PackagePath>Styles\PlatformStyles.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MySelfies.WindowsPhone.xr.xml">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\MySelfies.WindowsPhone.xr.xml">
       <PackagePath>MySelfies.WindowsPhone.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\resources.pri">
+    <AppxPackagedFile Include="C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
