@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\projects\myselfies-windows8.1\myselfies.windows\obj\arm\debug\intermediatexaml\myselfies.windows.exe" HashGuid="89f54aa9-0221-b5f5-7ce2-901fb1d9f0c4" />
+    <LocalAssembly PathName="c:\github\projects\myselfies-windows8.1\myselfies.windows\obj\arm\debug\intermediatexaml\myselfies.windows.exe" HashGuid="89f54aa9-0221-b5f5-7ce2-901fb1d9f0c4" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
     <ReferenceAssembly PathName="c:\github\projects\myselfies-windows8.1\packages\windowsappstudio.common.0.1.4\lib\portable-win81+wpa81\appstudio.common.dll" HashGuid="c4d06a26-14f9-f329-0c49-0db822a0aeda" />

@@ -210,7 +210,6 @@ C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\x86\Release\A
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\x86\Release\AppStudio.DataProviders.pri
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\x86\Release\HtmlAgilityPack.pdb
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\bin\x86\Release\Newtonsoft.Json.xml
-C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\x86\Release\MySelfies.WindowsPhone.csprojResolveAssemblyReference.cache
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\x86\Release\App.g.i.cs
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\x86\Release\App.g.cs
 C:\GitHub\Projects\MySelfies-Windows8.1\MySelfies.WindowsPhone\obj\x86\Release\Controls\ConnectionNotificationControl.g.i.cs
